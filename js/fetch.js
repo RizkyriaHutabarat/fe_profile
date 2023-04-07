@@ -12,10 +12,10 @@ function isiRow(value) {
     .replace("#USERNAME#", value.nama_user)
     // .replace("#EMAIL#", value.biodata.email)
     .replace("#SEKOLAH#", value.data_pendidikan.sekolah)
-    .replace("#JABATAN#", value.biodata.pengalaman)
-    .replace("#LULUSAN#", value.biodata.pengalaman)
+    .replace("#JABATAN#", value.data_pengalaman.jabatan)
+    .replace("#LULUSAN#", value.data_pendidikan.lulusan)
     // .replace("#TAHUNSELESAI#", value.biodata.pengalaman)
-    .replace("#LEVEL#", value.biodata.skill)
+    .replace("#LEVEL#", value.skills.level)
     .replace("#WARNA#", getRandomColor())
     .replace(/#WARNALOGO#/g, getRandomColorName());
   addInner("iniTabel", content);
