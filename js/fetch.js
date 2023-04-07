@@ -9,11 +9,11 @@ function isiTableProfile(results) {
 }
 function isiRow(value) {
   let content = isiTabel
-    .replace("#USERNAME#", value.biodata.nama)
+    .replace("#USERNAME#", value.biodata.nama_user)
     .replace("#SEKOLAH#", value.biodata.pendidikan)
     .replace("#JABATAN#", value.biodata.pengalaman)
     .replace("#LULUSAN#", value.biodata.pengalaman)
-    .replace("#TAHUNSELESAI#", value.biodata.pengalaman)
+    // .replace("#TAHUNSELESAI#", value.biodata.pengalaman)
     .replace("#LEVEL#", value.biodata.skill)
     .replace("#WARNA#", getRandomColor())
     .replace(/#WARNALOGO#/g, getRandomColorName());
