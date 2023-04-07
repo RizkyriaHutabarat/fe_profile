@@ -10,6 +10,7 @@ function isiTableProfile(results) {
 function isiRow(value) {
   let content = isiTabel
     .replace("#USERNAME#", value.biodata.nama_user)
+    .replace("#EMAIL#", value.biodata.email)
     .replace("#SEKOLAH#", value.biodata.pendidikan)
     .replace("#JABATAN#", value.biodata.pengalaman)
     .replace("#LULUSAN#", value.biodata.pengalaman)
