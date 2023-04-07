@@ -14,11 +14,12 @@ export let isiTabel = `
             </div>
         </div>
     </th>
-    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#JABATAN#</th>
-    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">#STATUS#</th>
-    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#LOKASI#</th>
-    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#HARIKERJA#</th>
-    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#JAMKERJA#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#USERNAME#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">#SEKOLAH#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#JABATAN#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#LULUSAN#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#TAHUNSELESAI#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#LEVEL#</th>
     <th class="whitespace-nowrap px-4 bg-white text-left">
         <div class="w-auto p-2">
         <p class="text-xs font-semibold text-coolGray-800">#JAMMASUK#</p>
