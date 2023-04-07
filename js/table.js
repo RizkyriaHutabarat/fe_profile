@@ -14,6 +14,7 @@ export let isiTabel = `
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">#SEKOLAH#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#JABATAN#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#LULUSAN#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#SKILL#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#LEVEL#</th>
     <th class="whitespace-nowrap pr-4 bg-white text-sm font-medium text-coolGray-800">
         <svg class="ml-auto" width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

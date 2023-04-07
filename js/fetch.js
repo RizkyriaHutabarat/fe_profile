@@ -15,6 +15,7 @@ function isiRow(value) {
     .replace("#JABATAN#", value.data_pengalaman.jabatan)
     .replace("#LULUSAN#", value.data_pendidikan.lulusan)
     // .replace("#TAHUNSELESAI#", value.biodata.pengalaman)
+    .replace("#SKILL#", value.skills.nama)
     .replace("#LEVEL#", value.skills.level)
     .replace("#WARNA#", getRandomColor())
     .replace(/#WARNALOGO#/g, getRandomColorName());
