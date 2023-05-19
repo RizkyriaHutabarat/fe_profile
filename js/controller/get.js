@@ -1,6 +1,7 @@
 import { addInner } from "https://bukulapak.github.io/element/process.js";
 import { getRandomColor, getRandomColorName } from "https://bukulapak.github.io/image/process.js";
 import { isiTabel } from "../temp/table.js";
+let urlAPI = "https://hutabarat.herokuapp.com/allprofile";
 export function isiTablePresensi(results) {
   results.forEach(isiRow);
 }
